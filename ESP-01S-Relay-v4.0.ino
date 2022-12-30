@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
  
-const char* ssid = "redea";
-const char* password = "!g@t0pret0203154121"; 
+const char* ssid = "";
+const char* password = ""; 
  
 // BYTES EM HEXA DE COMANDOS DO RELE, ON/OFF
 uint8_t relayOn[] = {0xA0, 0x01, 0x00, 0xA1};
